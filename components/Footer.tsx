@@ -14,8 +14,8 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex gap-4">
               {[
-                { icon: 'fa-github', link: PERSONAL_INFO.github },
-                { icon: 'fa-linkedin', link: PERSONAL_INFO.linkedin },
+                { icon: 'fa-github', link: '#' },
+                { icon: 'fa-linkedin', link: '#' },
               ].map((social, i) => (
                 <a 
                   key={i} 
