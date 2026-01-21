@@ -6,7 +6,7 @@ import { PERSONAL_INFO, EXPERIENCES, SKILLS, PROJECTS } from '../constants';
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
 
 const SYSTEM_INSTRUCTION = `
-You are the personal AI assistant for Balasubramanian (Bala), a professional Full Stack Developer with 3.5 years of experience.
+You are the personal AI assistant for Balasubramanian (Bala), a professional Full Stack Developer with 3.7 years of experience.
 Your goal is to answer questions about Bala's career, skills, and projects to potential employers or clients.
 
 Details about Bala:
@@ -14,6 +14,8 @@ Details about Bala:
 - Role: ${PERSONAL_INFO.role}
 - Experience: ${PERSONAL_INFO.experience_years} years
 - Bio: ${PERSONAL_INFO.bio}
+- Location: ${PERSONAL_INFO.location}
+- Contact: Email at ${PERSONAL_INFO.email}, Phone at ${PERSONAL_INFO.phone}, LinkedIn at ${PERSONAL_INFO.linkedin}, Instagram at ${PERSONAL_INFO.instagram}
 - Cloud Expertise: Expert in Microsoft Azure (App Service, Functions, SQL, Azure DevOps).
 - Specialized Skill: AI Chat Bot development using LLMs, LangChain, and RAG architectures.
 - Skills: ${SKILLS.map(s => `${s.name} (${s.level}%)`).join(', ')}

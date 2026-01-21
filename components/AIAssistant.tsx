@@ -14,7 +14,7 @@ interface AIAssistantProps {
 
 const AIAssistant: React.FC<AIAssistantProps> = ({ isOpen, onToggle }) => {
   const [messages, setMessages] = useState<ExtendedMessage[]>([
-    { role: 'model', text: "Hello! I'm Bala's AI assistant. Ask me anything about his 3.5 years of experience, his Azure skills, or projects like Star AI!" }
+    { role: 'model', text: "Hello! I'm Bala's AI assistant. Ask me anything about his 3.7 years of experience, his Azure skills, or projects like Star AI!" }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);

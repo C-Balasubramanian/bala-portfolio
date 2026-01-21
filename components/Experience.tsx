@@ -8,7 +8,7 @@ const Experience: React.FC = () => {
       <div className="max-w-4xl mx-auto px-4 md:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-slate-900">Work <span className="text-blue-600">Experience</span></h2>
-          <p className="text-slate-500">My professional journey over the past 3.5 years.</p>
+          <p className="text-slate-500">My professional journey over the past 3.7 years.</p>
         </div>
 
         <div className="space-y-12">

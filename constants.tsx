@@ -4,19 +4,21 @@ import { Experience, Project, Skill } from './types';
 export const PERSONAL_INFO = {
   name: "Balasubramanian",
   role: "Full Stack Developer",
-  experience_years: 3.5,
+  experience_years: 3.7,
   location: "India",
   email: "balasubramanian0819@gmail.com",
-  github: "https://github.com/balasubramanian0819",
-  linkedin: "https://linkedin.com/in/balasubramanian0819",
-  bio: "Passionate Full Stack Developer with 3.5 years of industry experience building scalable web applications. Expert in modern JavaScript frameworks, Azure cloud development, and building high-performance AI-driven systems. I specialize in turning complex requirements into elegant, user-centric solutions."
+  phone: "8012448219",
+  github: "https://github.com",
+  linkedin: "https://www.linkedin.com/in/balasubramanian-c-79a110263",
+  instagram: "https://www.instagram.com/starbala_official/",
+  bio: "Passionate Full Stack Developer with 3.7 years of industry experience building scalable web applications. Expert in modern JavaScript frameworks, Azure cloud development, and building high-performance AI-driven systems. I specialize in turning complex requirements into elegant, user-centric solutions."
 };
 
 export const EXPERIENCES: Experience[] = [
   {
     company: "Innovate AI Lab",
     role: "Lead Chatbot Developer",
-    period: "2023 - Present",
+    period: "2024 - 2026",
     description: [
       "Designed and implemented production-grade AI Chat Bots using LLMs and Vector Databases (Pinecone/Milvus).",
       "Integrated RAG (Retrieval-Augmented Generation) architectures to improve response accuracy by 45%.",
@@ -27,7 +29,7 @@ export const EXPERIENCES: Experience[] = [
   {
     company: "TechNova Solutions",
     role: "Senior Full Stack Developer",
-    period: "2022 - 2023",
+    period: "2023 - 2024",
     description: [
       "Architected and deployed enterprise-grade web applications using React and Node.js.",
       "Optimized cloud infrastructure on Microsoft Azure, implementing auto-scaling and CI/CD pipelines.",
@@ -38,7 +40,7 @@ export const EXPERIENCES: Experience[] = [
   {
     company: "Digital Stream Inc.",
     role: "Full Stack Developer",
-    period: "2020 - 2022",
+    period: "2022 - 2023",
     description: [
       "Built responsive user interfaces for high-traffic e-commerce platforms.",
       "Developed RESTful and GraphQL APIs to support mobile and web clients.",
@@ -52,21 +54,27 @@ export const SKILLS: Skill[] = [
   // Frontend
   { name: "React / Next.js", category: "Frontend", level: 95, description: "Expertise in SSR, SSG, and state management (Redux/Zustand)." },
   { name: "TypeScript", category: "Frontend", level: 92, description: "Building type-safe applications with advanced generic types." },
+  { name: "JavaScript (ES6+)", category: "Frontend", level: 95, description: "Deep understanding of core concepts, closures, and async patterns." },
+  { name: "HTML5 / CSS3", category: "Frontend", level: 98, description: "Semantic markup, flexbox/grid layouts, and responsive design." },
   { name: "Tailwind CSS", category: "Frontend", level: 95, description: "Designing modern, responsive layouts with utility-first CSS." },
+  { name: "Bootstrap", category: "Frontend", level: 90, description: "Rapid prototyping and responsive UI development." },
   { name: "Redux / Zustand", category: "Frontend", level: 88, description: "Managing complex global state and asynchronous data flows." },
   
   // Backend
   { name: "Node.js / Express", category: "Backend", level: 90, description: "Developing robust RESTful and real-time APIs using Socket.io." },
   { name: "Python / FastAPI", category: "Backend", level: 82, description: "Creating fast, asynchronous APIs for AI model serving." },
+  { name: "PHP", category: "Backend", level: 80, description: "Server-side scripting for dynamic web applications." },
   { name: "AI Agents / RAG", category: "Backend", level: 85, description: "Building intelligent agents with LangChain and vector embeddings." },
   
   // Database
   { name: "PostgreSQL", category: "Database", level: 85, description: "Advanced relational modeling, indexing, and complex queries." },
+  { name: "MySQL", category: "Database", level: 85, description: "Relational database management and optimization." },
   { name: "MongoDB / Cosmos DB", category: "Database", level: 88, description: "NoSQL document stores for high-scalability on Azure." },
   { name: "Redis", category: "Database", level: 80, description: "In-memory data structures for caching and session management." },
   
   // DevOps & Tools
   { name: "Microsoft Azure", category: "DevOps", level: 82, description: "Cloud orchestration using App Service, Azure Functions, and Blob Storage." },
+  { name: "Vercel", category: "DevOps", level: 90, description: "Automated deployments and hosting for frontend applications." },
   { name: "Docker / K8s", category: "DevOps", level: 80, description: "Containerizing applications for consistent Azure Kubernetes Service (AKS) deployments." },
   { name: "Git / CI/CD", category: "Tools", level: 90, description: "Mastering version control and Azure DevOps pipelines." }
 ];

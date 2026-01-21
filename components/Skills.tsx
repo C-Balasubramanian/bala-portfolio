@@ -32,7 +32,7 @@ const Skills: React.FC = () => {
           <div className="order-2 lg:order-1">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-slate-900">Technical <span className="text-blue-600">Expertise</span></h2>
             <p className="text-slate-500 mb-8 md:mb-10 text-base md:text-lg leading-relaxed max-w-xl">
-              A comprehensive stack built over 3.5 years of industry experience. 
+              A comprehensive stack built over 3.7 years of industry experience. 
               <span className="text-blue-600 font-semibold block mt-2">Click a technology to view depth.</span>
             </p>
             
